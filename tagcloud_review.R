@@ -1,6 +1,12 @@
 install.packages("leaflet")
 install.packages("leaflet.extras")
+install.packages("tm")
+install.packages("SnowballC")
+install.packages("wordcloud")
 
+library(SnowballC)
+library(readr)
+library(corrplot)
 library(shiny)
 library(dplyr)
 library(wordcloud)
