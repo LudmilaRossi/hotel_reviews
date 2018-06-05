@@ -64,5 +64,5 @@ Review_Date = as.Date(Hotel_Reviews$Review_Date)
 class(Review_Date)
 
 green_color_ramp = brewer.pal(9, "Greens")
-calendarHeat(Hotel_Reviews$Review_Date, Hotel_Reviews$Negative_Review, varname = "Días con mayores comentarios negativos", color="green_color_ramp")
+calendarHeat(Hotel_Reviews$Review_Date, Hotel_Reviews$Negative_Review, varname = "DÃ­as con mayores comentarios negativos", color="green_color_ramp")
 
